@@ -1,0 +1,21 @@
+{
+  "name": "test-typedoc-library",
+  "version": "1.0.0",
+  "description": "test for TypeDoc's library mode",
+  "main": "dist/es6/index.js",
+  "scripts": {
+    "typedoc": "typedoc --mode library --out docs src/index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmarshall/test-typedoc-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmarshall/test-typedoc-library/issues"
+  },
+  "homepage": "https://github.com/danmarshall/test-typedoc-library#readme"
+}
